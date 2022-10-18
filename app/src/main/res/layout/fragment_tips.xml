@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tips.TipsFragment">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:navigationIcon="@drawable/arrow_back_24px"
+        app:title="@string/tips_fragment_heading"
+        app:titleTextAppearance="@style/toolbarStyleText2"
+
+        app:titleTextColor="@color/white"
+        android:background="@color/dark_blue"
+
+        />
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+
+        />
+
+    <ImageView
+        android:id="@+id/arrow_left"
+        style="@style/Widget.AppCompat.ActionButton"
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:src= "@drawable/arrow_back_ios_24px"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="@dimen/arrow_margins"
+        android:layout_marginBottom="@dimen/arrow_margins"/>
+
+    <ImageView
+        android:id="@+id/arrow_right"
+        style="@style/Widget.AppCompat.ActionButton"
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:src= "@drawable/arrow_forward_ios_24px"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="@dimen/arrow_margins"
+        android:layout_marginBottom="@dimen/arrow_margins"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

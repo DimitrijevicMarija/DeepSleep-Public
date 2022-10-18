@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable-hdpi/bedtime_24px.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/alarm-48px.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/alarm_20px.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/arrow_back_24px.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/arrow_back_ios_24px.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/arrow_forward_ios_24px.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/delete_24px.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/equalizer-48px.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/equalizer_20px.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/format_list_bulleted_24px.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/layout_bg.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/layout_bg_transparent.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/outline_dark_mode_20.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/outline_dark_mode_24.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/person_24px.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/schedule_24px.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/tips_and_updates-48px.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/tips_and_updates_20px.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/volume_mute_24px.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/drawable/volume_up_24px.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/font/font.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout-land/activity_alarm.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout-land/activity_main.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout-land/fragment_alarm.xml" value="0.1" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout-land/fragment_main.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout-land/fragment_personal.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout/activity_alarm.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout/fragment_alarm.xml" value="0.2" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout/fragment_alarm_list.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout/fragment_main.xml" value="0.11145833333333334" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout/fragment_personal.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout/fragment_statistics.xml" value="0.1953125" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout/fragment_tips.xml" value="0.22" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout/simple_toast.xml" value="0.1171875" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout/view_holder_alarm.xml" value="0.2" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/layout/view_holder_tip.xml" value="0.21" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/menu/alarms_menu.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/menu/main_navigation_menu.xml" value="0.11145833333333334" />
+        <entry key="..\:/Users/User01/Desktop/DeepSleep/app/src/main/res/menu/personal_menu.xml" value="0.17135416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

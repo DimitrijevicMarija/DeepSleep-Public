@@ -1,0 +1,67 @@
+<resources>
+    <!-- Headings -->
+    <string name="app_name">DeepSleep</string>
+    <string name="tips_fragment_heading">Tips for good sleep</string>
+    <string name="alarm_fragment_heading">Set an alarm</string>
+    <string name="statistics_fragment_heading">About your sleep</string>
+    <string name="alarm_list_heading">Alarms</string>
+    <string name="personal_info_heading">Info about you</string>
+
+    <!-- Alarm fragment -->
+    <string name="select_time_label">Select time</string>
+    <string name="vibration_label">Vibration</string>
+    <string name="morning_test_label">Morning test</string>
+    <string name="button_label_set_alarm">SET</string>
+    <string name="alarm_set_message">Alarm set for</string>
+    <string name="stop_alarm_label">STOP</string>
+    <string name="alarm_notification_name">Alarm</string>
+    <string name="alarm_notification_text">It\'s time to wake up!</string>
+
+    <!-- Extras -->
+    <string name="vibration_name_extra">com.example.deepsleep.VIBRATION</string>
+    <string name="volume_name_extra">com.example.deepsleep.VOLUME</string>
+    <string name="morning_test_extra">com.example.deepsleep.MORNING_TEST</string>
+    <string name="id_alarm_extra">com.example.deepsleep.ALARM_ID</string>
+
+    <!-- Morning test messages -->
+    <string name="msg_wrong_answer">Wrong answer!</string>
+    <string name="msg_two_more">That\'s correct. Just 2 more…</string>
+    <string name="msg_one_more">Just one more…</string>
+    <string name="msg_finished">Congrats!</string>
+
+
+    <!-- Time helper -->
+    <string name="hours_label">h</string>
+    <string name="minutes_label">m</string>
+    <string name="unknown">- -</string>
+
+
+    <!-- Sleep duration messages -->
+    <string name="msg_dangerous">Try to sleep more</string>
+    <string name="msg_medium">Keep going</string>
+    <string name="msg_normal">That\'s good</string>
+    <string name="msg_average_person_needs_1">The average</string>
+    <string name="msg_average_person_needs_2">-year-old needs around</string>
+    <string name="msg_average_person_needs_3">hours of sleep per day.</string>
+    <string name="msg_no_sleep">There is no evidence of sleep. </string>
+    <string name="add_your_age">Add your age to get more accurate statistics.</string>
+
+
+    <!-- Bar chart -->
+    <string name="avg_label">Week average sleep time:</string>
+    <string name="no_data_chart_available">No data chart available.</string>
+
+    <!-- Personal info -->
+    <string name="name_question">What is your name?</string>
+    <string name="age_question">How old are you?</string>
+    <string name="name_hint">Name</string>
+    <string name="button_label_change">CHANGE</string>
+    <string name="msg_personal_info_changed">Successfully updated</string>
+
+    <!-- Shared preferences -->
+    <string name="shared_preferences_name_key">com.example.deepsleep.NAME</string>
+    <string name="shared_preferences_age_key">com.example.deepsleep.AGE</string>
+    <string name="hello_string">Hello</string>
+
+
+</resources>

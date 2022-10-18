@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="toolbarStyleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/font</item>
+        <item name="android:textSize">@dimen/toolbar_text_size</item>
+
+    </style>
+
+
+    <!-- smaller toolbar style under the main app toolbar-->
+    <style name="toolbarStyleText2" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/font</item>
+        <item name="android:textSize">@dimen/toolbar_text_size_2</item>
+
+    </style>
+
+    <style name="ThemeOverlay.NumberPicker" parent="" >
+        <item name="colorControlNormal">@color/secondaryColor</item>
+        <item name="android:textColorPrimary">@color/secondaryColor</item>
+    </style>
+
+</resources>

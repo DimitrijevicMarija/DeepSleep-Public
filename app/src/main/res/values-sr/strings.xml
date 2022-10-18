@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Headings -->
+    <string name="app_name">Сан за продуктиван дан</string>
+    <string name="tips_fragment_heading">Савети за добар сан</string>
+    <string name="alarm_fragment_heading">Постави аларм</string>
+    <string name="statistics_fragment_heading">О твом сну</string>
+    <string name="alarm_list_heading">Аларми</string>
+    <string name="personal_info_heading">Информације о теби</string>
+
+    <!-- Alarm fragment -->
+    <string name="select_time_label">Одабери време</string>
+    <string name="vibration_label">Вибрација</string>
+    <string name="morning_test_label">Јутарњи тест</string>
+    <string name="button_label_set_alarm">ПОСТАВИ</string>
+    <string name="alarm_set_message">Аларм постављен за</string>
+    <string name="stop_alarm_label">ЗАУСТАВИ</string>
+    <string name="alarm_notification_name">Аларм</string>
+    <string name="alarm_notification_text">Време је за буђење!</string>
+
+    <!-- Extras -->
+    <string name="vibration_name_extra">com.example.deepsleep.VIBRATION</string>
+    <string name="volume_name_extra">com.example.deepsleep.VOLUME</string>
+    <string name="morning_test_extra">com.example.deepsleep.MORNING_TEST</string>
+    <string name="id_alarm_extra">com.example.deepsleep.ALARM_ID</string>
+
+    <!-- Morning test messages -->
+    <string name="msg_wrong_answer">Погрешан одговор!</string>
+    <string name="msg_two_more">Тачно! Још два…</string>
+    <string name="msg_one_more">Још само један…</string>
+    <string name="msg_finished">Браво!</string>
+
+
+    <!-- Time helper -->
+    <string name="hours_label">ч</string>
+    <string name="minutes_label">м</string>
+    <string name="unknown">- -</string>
+
+
+    <!-- Sleep duration messages -->
+    <string name="msg_dangerous">Покушај да спаваш више</string>
+    <string name="msg_medium">Можеш ти боље</string>
+    <string name="msg_normal">Ово је добро</string>
+    <string name="msg_average_person_needs_1">Просечној</string>
+    <string name="msg_average_person_needs_2">-годишњој особи је потребно око</string>
+    <string name="msg_average_person_needs_3">ч сна дневно.</string>
+    <string name="msg_no_sleep">Нема записа о спавању. </string>
+    <string name="add_your_age">Унеси старост, како би добио прецизнију статистику.</string>
+
+
+    <!-- Bar chart -->
+    <string name="avg_label">Просечно седмично спавање:</string>
+    <string name="no_data_chart_available">Седмични подаци нису доступни.</string>
+
+    <!-- Personal info -->
+    <string name="name_question">Како се зовеш?</string>
+    <string name="age_question">Колико имаш година?</string>
+    <string name="name_hint">Име</string>
+    <string name="button_label_change">ПРОМЕНИ</string>
+    <string name="msg_personal_info_changed">Успешно промењено</string>
+
+    <!-- Shared preferences -->
+    <string name="shared_preferences_name_key">com.example.deepsleep.NAME</string>
+    <string name="shared_preferences_age_key">com.example.deepsleep.AGE</string>
+    <string name="hello_string">Здраво</string>
+</resources>

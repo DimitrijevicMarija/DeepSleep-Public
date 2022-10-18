@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.deepsleep.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_tipsFragment"
+            app:destination="@id/tipsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_alarmFragment"
+            app:destination="@id/alarmFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_statisticsFragment"
+            app:destination="@id/statisticsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_personalFragment"
+            app:destination="@id/personalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tipsFragment"
+        android:name="com.example.deepsleep.tips.TipsFragment"
+        android:label="fragment_tips"
+        tools:layout="@layout/fragment_tips" />
+    <fragment
+        android:id="@+id/alarmFragment"
+        android:name="com.example.deepsleep.alarm.AlarmFragment"
+        android:label="fragment_alarm"
+        tools:layout="@layout/fragment_alarm" >
+        <action
+            android:id="@+id/action_alarmFragment_to_alarmListFragment"
+            app:destination="@id/alarmListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/alarmListFragment"
+        android:name="com.example.deepsleep.alarm.AlarmListFragment"
+        android:label="fragment_alarm_list"
+        tools:layout="@layout/fragment_alarm_list" />
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.deepsleep.statistics.StatisticsFragment"
+        android:label="fragment_statistics"
+        tools:layout="@layout/fragment_statistics" />
+    <fragment
+        android:id="@+id/personalFragment"
+        android:name="com.example.deepsleep.personal.PersonalFragment"
+        android:label="fragment_personal"
+        tools:layout="@layout/fragment_personal" />
+</navigation>

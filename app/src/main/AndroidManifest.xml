@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.deepsleep">
+    <!-- Necessary for setting an exact alarm -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <!-- Full screen intent for notification -->
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!-- Alarm vibrating -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <!-- Media player -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rsz_koalica"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/rsz_koalica"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DeepSleep">
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Receiver that re-registers alarms after a device restart. -->
+        <receiver
+            android:directBootAware="true"
+            android:name="com.example.deepsleep.alarm.StartupReceiver"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.REBOOT"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:process=":remote"
+            android:name=".alarm.AlarmReceiver"
+            android:exported="true"
+            />
+
+        <activity
+            android:name=".alarm.AlarmActivity"
+            android:exported="false"
+            android:showOnLockScreen="true"
+            android:showForAllUsers="true"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"
+
+
+           />
+
+
+
+        <service android:name=".DataLayerListenerService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+                <data android:scheme="wear" android:host="*"
+                    android:path="/sleep" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

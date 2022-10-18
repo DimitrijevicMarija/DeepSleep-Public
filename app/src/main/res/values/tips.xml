@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tip_heading">
+        <item>Increase bright light exposure during the day</item>
+        <item>Reduce blue light exposure in the evening</item>
+        <item>Don’t consume caffeine late in the day</item>
+        <item>Reduce irregular or long daytime naps</item>
+        <item>Try to sleep and wake at consistent times</item>
+        <item>Take a melatonin supplement</item>
+        <item>Consider these other supplements</item>
+        <item>Don’t drink alcohol</item>
+        <item>Optimize your bedroom environment</item>
+        <item>Set your bedroom temperature</item>
+        <item>Don’t eat late in the evening</item>
+        <item>Relax and clear your mind in the evening</item>
+        <item>Take a relaxing bath or shower</item>
+        <item>Get a comfortable bed, mattress, and pillow</item>
+        <item>Exercise regularly — but not before bed</item>
+        <item>Don’t drink any liquids before bed</item>
+        <item>Don’t Smoke</item>
+    </string-array>
+
+
+
+    <string-array name="tip_description">
+        <item>Our internal clocks are regulated by light exposure. Sunlight has the strongest
+            effect, so try to take in daylight by getting outside or opening up windows or
+            blinds to natural light. Getting a dose of daylight early in the day can help
+            normalize your circadian rhythm. If natural light isn’t an option, you can talk
+            with your doctor about using a light therapy box.
+            \n
+            In people with insomnia, daytime bright light exposure improved sleep quality and
+            duration. It also reduced the time it took to fall asleep by 83%.
+        </item>
+
+        <item>This is due to its effect on your circadian rhythm, tricking your brain into
+            thinking it’s still daytime. This reduces hormones like melatonin, which help you
+            relax and get deep sleep.
+            \n
+            Wear glasses that block blue light.
+            Download an app such as \"f.lux\" to block blue light on your laptop or computer.
+            Install an app that blocks blue light on your smartphone. These are available for
+            both iPhone and Android models.
+            Stop watching TV and turn off any bright lights for 2 hours before heading to bed.
+        </item>
+
+        <item>Caffeine has numerous benefits and is consumed by 90% of the U.S. population.
+            A single dose can enhance focus, energy, and sports performance.
+            However, when consumed late in the day, caffeine stimulates your nervous system and
+            may stop your body from naturally relaxing at night.
+            \n
+            In one study, consuming caffeine up to 6 hours before bed significantly worsened
+            sleep quality.
+            Caffeine can stay elevated in your blood for 6–8 hours. Therefore, drinking large
+            amounts of coffee after 3–4 p.m. is not recommended, especially if you’re
+            sensitive to caffeine or have trouble sleeping.
+        </item>
+
+
+        <item>While short power naps are beneficial, long or irregular napping during the day
+            can negatively affect your sleep.
+            Sleeping in the daytime can confuse your internal clock, meaning that you may
+            struggle to sleep at night.
+            \n
+            In fact, in one study, participants ended up being sleepier during the day after
+            taking daytime naps.
+            Another study noted that napping for 30 minutes or less can enhance daytime
+            brain function, longer naps can harm health and sleep quality.
+        </item>
+
+        <item>Your body’s circadian rhythm functions on a set loop, aligning itself with
+            sunrise and sunset.
+            Being consistent with your sleep and waking times can aid long-term sleep quality.
+            \n
+            One study noted that participants who had irregular sleeping patterns and went to
+            bed late on the weekends reported poor sleep.
+            Other studies have highlighted that irregular sleep patterns can alter your
+            circadian rhythm and levels of melatonin, which signal your brain to sleep.
+            \n
+            If you struggle with sleep, try to get in the habit of waking up and going to bed
+            at similar times. After several weeks, you may not even need an alarm.
+        </item>
+
+        <item>Melatonin is a key sleep hormone that tells your brain when it’s time to relax
+            and head to bed.
+            Melatonin supplements are an extremely popular sleep aid.
+            Often used to treat insomnia, melatonin may be one of the easiest ways to fall
+            asleep faster.
+            \n
+            In one study, taking 2 mg of melatonin before bed improved sleep quality and
+            energy the next day and helped people fall asleep faster.
+            In another study, half of the group fell asleep faster and had a 15% improvement
+            in sleep quality.
+            \n
+            Additionally, no withdrawal effects were reported in either of the above studies.
+            Melatonin is also useful when traveling and adjusting to a new time zone, as it
+            helps your body’s circadian rhythm return to normal.
+        </item>
+
+
+
+
+
+        <item>Several supplements can induce relaxation and help you sleep, including:
+            \n
+        - Ginkgo biloba: A natural herb with many benefits, it may aid sleep, relaxation,
+            and stress reduction, but the evidence is limited. Take 250 mg 30–60 minutes before
+            bed.
+            \n
+        - Glycine: A few studies show that taking 3 grams of the amino acid glycine can improve
+            sleep quality.
+            \n
+        - Valerian root: Several studies suggest that valerian can help you fall asleep and
+            improve sleep quality. Take 500 mg before bed.
+            \n
+        - Magnesium: Responsible for over 600 reactions within your body, magnesium can
+            improve relaxation and enhance sleep quality.
+            \n
+        - L-theanine: An amino acid, L-theanine can improve relaxation and sleep. Take 100–200
+            mg before bed.
+            \n
+        - Lavender: A powerful herb with many health benefits, lavender can induce a calming
+            and sedentary effect to improve sleep. Take 80–160 mg containing 25–46% linalool.
+            \n
+        Make sure to only try these supplements one at a time. While they’re not a magic bullet
+            for sleep issues, they can be useful when combined with other natural sleeping
+            strategies.
+        </item>
+
+        <item>Having a couple of drinks at night can negatively affect your sleep and hormones.
+            Alcohol is known to cause or increase the symptoms of sleep apnea, snoring, and
+            disrupted sleep patterns.
+            It also alters nighttime melatonin production, which plays a key role in your
+            body’s circadian rhythm.
+            \n
+            Another study found that alcohol consumption at night decreased the natural
+            nighttime elevations in human growth hormone (HGH), which plays a role in your
+            circadian rhythm and has many other key functions.
+        </item>
+
+        <item>Many people believe that the bedroom environment and its setup are key factors
+            in getting a good night’s sleep.
+            These factors include temperature, noise, external lights, and furniture
+            arrangement.
+            \n
+            To optimize your bedroom environment, try to minimize external noise, light, and
+            artificial lights from devices like alarm clocks. Make sure your bedroom is a
+            quiet, relaxing, clean, and enjoyable place.
+            Consider using room-darkening shades, earplugs, a fan, or other devices to create
+            an environment that suits your needs.
+        </item>
+
+        <item>Body and bedroom temperature can also profoundly affect sleep quality.
+            As you may have experienced during the summer or in hot locations, it can be very
+            hard to get a good night’s sleep when it’s too warm.
+            \n
+            One study found that bedroom temperature affected sleep quality more than external
+            noise.
+            Around 70°F (20°C) seems to be a comfortable temperature for most people, although
+            it depends on your preferences and habits.
+        </item>
+
+        <item>Eating late at night may negatively affect both sleep quality and the natural
+            release of HGH and melatonin.
+            That said, the quality and type of your late-night snack may play a role as well.
+            In one study, a high-carb meal eaten 4 hours before bed helped people fall asleep
+            faster.
+            \n
+            Interestingly, one study discovered that a low-carb diet also improved sleep,
+            indicating that carbs aren\'t always necessary, especially if you’re used to a low-carb diet.
+            \n
+            Don\'t go to bed hungry or stuffed. In particular, avoid heavy or large meals
+            within a couple of hours of bedtime. Your discomfort might keep you up.
+        </item>
+
+        <item>Many people have a pre-sleep routine that helps them relax.
+            Relaxation techniques before bed have been shown to improve sleep quality and are
+            another common technique used to treat insomnia.
+            \n
+            Strategies include listening to relaxing music, reading a book, taking a hot bath,
+            meditating, deep breathing, and visualization. Try out different methods and find
+            what works best for you.
+        </item>
+
+
+        <item>A relaxing bath or shower is another popular way to sleep better.
+            Studies indicate that they can help improve overall sleep quality and help people
+            — especially older adults — fall asleep faster.
+            \n
+            In one study, taking a hot bath 90 minutes before bed improved sleep quality and
+            helped people get more deep sleep.
+            Alternatively, if you don’t want to take a full bath at night, simply bathing your
+            feet in hot water can help you relax and improve sleep.
+        </item>
+
+        <item>Apart from the relaxing environment, bed quality can also affect sleep.
+            One study looked at the benefits of a new mattress for 28 days, revealing that it
+            reduced back pain by 57%, shoulder pain by 60%, and back stiffness by 59%. It also
+            improved sleep quality by 60%.
+            \n
+            The best mattress and bedding are extremely subjective. If you’re upgrading your
+            bedding, base your choice on personal preference.
+            It’s recommended that you upgrade your bedding at least every 5–8 years.
+        </item>
+
+        <item>Exercise is one of the best science-backed ways to improve your sleep and health.
+            It can enhance all aspects of sleep and has been used to reduce symptoms of
+            insomnia.
+            One study in older adults determined that exercise nearly halved the amount of time
+            it took to fall asleep and provided 41 more minutes of sleep at night.
+            In people with severe insomnia, exercise offered more benefits than most drugs.
+            /n
+            Exercise reduced time to fall asleep by 55%, total night wakefulness by 30%, and
+            anxiety by 15% while increasing total sleep time by 18%.
+            Although daily exercise is key for a good night’s sleep, performing it too late
+            in the day may cause sleep problems.
+            This is due to the stimulatory effect of exercise, which increases alertness and
+            hormones like epinephrine and adrenaline.
+        </item>
+
+        <item>Nocturia is the medical term for excessive urination during the night.
+            It affects sleep quality and daytime energy.
+            Drinking large amounts of liquids before bed can lead to similar symptoms, though
+            some people are more sensitive than others.
+            \n
+            Although hydration is vital for your health, it’s wise to reduce your fluid intake
+            in the late evening.
+            Try to not drink any fluids for 1–2 hours before going to bed.
+            You should also use the bathroom right before going to bed, as this may decrease
+            your chances of waking up ate night.
+        </item>
+
+        <item>Exposure to smoke, including secondhand smoke, has been associated with a range
+            of sleeping problems including difficulty falling asleep and fragmented sleep.
+        </item>
+
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_text_size">32sp</dimen>
+
+    <!-- smaller toolbar text size under the main app toolbar-->
+    <dimen name="toolbar_text_size_2">24sp</dimen>
+
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_size_tip_heading">18sp</dimen>
+    <dimen name="text_size_switches">20sp</dimen>
+
+    <dimen name="margin_view_holder">20sp</dimen>
+    <dimen name="margin_view_holder_lr">40sp</dimen>
+    <dimen name="padding_view_holder">12sp</dimen>
+    <dimen name="bottom_margin_tip_description">10sp</dimen>
+
+
+    <dimen name="floating_buttons_margins">62sp</dimen>
+    <dimen name="arrow_margins">30sp</dimen>
+
+    <dimen name="button_answers_margins">60sp</dimen>
+    <dimen name="bottom_margin_answers">100sp</dimen>
+    <dimen name="button_morning_test_text_size">32sp</dimen>
+
+    <dimen name="personal_fragment_margins">15sp</dimen>
+    <dimen name="personal_text_size">20sp</dimen>
+</resources>

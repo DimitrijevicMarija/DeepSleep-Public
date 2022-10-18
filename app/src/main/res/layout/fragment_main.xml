@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <ImageView
+        android:id="@+id/personal_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/person_24px"
+
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/floating_action_button_alarm"
+        android:layout_marginBottom="200dp"
+
+        android:textColor="@color/white"
+        android:textSize="@dimen/toolbar_text_size_2"
+        android:fontFamily="@font/font"
+        />
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:lottie_fileName="42410-sleeping-polar-bear.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/floating_action_button_statistics"/>
+
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button_statistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        android:layout_margin="@dimen/floating_buttons_margins"
+        android:contentDescription="Your statistics"
+        app:srcCompat="@drawable/equalizer_20px"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/floating_action_button_statistics"
+        app:layout_constraintRight_toLeftOf="@id/floating_action_button_tips"
+
+        android:layout_margin="@dimen/floating_buttons_margins"
+        android:contentDescription="Set an alarm"
+        app:srcCompat="@drawable/alarm_20px"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:layout_margin="@dimen/floating_buttons_margins"
+        android:contentDescription="Tips about sleep"
+        app:srcCompat="@drawable/tips_and_updates_20px"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
